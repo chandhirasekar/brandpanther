@@ -132,7 +132,7 @@ export default function Home() {
                 
                 <div className="grid sm:grid-cols-2 gap-4 pt-2 max-w-xl">
                   {[
-                    { icon: Search, title: "Market Research", desc: "Decode your audience with data" },
+                    { icon: Search, title: "Market Research", desc: "Make confident decisions with comprehensive market analysis and actionable insights" },
                     { icon: Palette, title: "Branding", desc: "Identities people remember" },
                     { icon: PenTool, title: "Content Creation", desc: "Stories that convert" },
                     { icon: Target, title: "Lead Generation", desc: "Pipelines that pay" }
