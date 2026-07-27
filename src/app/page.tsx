@@ -160,12 +160,12 @@ export default function Home() {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
               {[
-                { icon: Target, title: "Performance Marketing", desc: "Data-driven campaigns across Meta, Google, and TikTok." },
-                { icon: Layout, title: "Web Design & Dev", desc: "High-converting, beautiful websites that tell your story." },
-                { icon: Megaphone, title: "Social Media Strategy", desc: "Engaging content that builds community and brand loyalty." },
-                { icon: Globe, title: "SEO & Content", desc: "Rank higher and capture organic intent with precision." },
-                { icon: Users, title: "Lead Generation", desc: "High-quality inbound leads for B2B and high-ticket B2C." },
-                { icon: BarChart3, title: "Data & Analytics", desc: "Full funnel tracking to optimize every dollar spent." },
+                { icon: Target, title: "Performance Marketing", desc: "Reach the right audience and achieve measurable business growth with performance-driven campaigns." },
+                { icon: Layout, title: "Web Design & Dev", desc: "Build responsive, high-performance websites that deliver exceptional user experiences and drive business growth." },
+                { icon: Megaphone, title: "Social Media Strategy", desc: "Grow your online community through impactful content planning, audience insights, and engagement strategies." },
+                { icon: Globe, title: "SEO & Content", desc: "Boost online visibility with SEO-driven content that attracts, engages, and converts your audience." },
+                { icon: Users, title: "Lead Generation", desc: "Attract and convert potential customers with targeted strategies that generate high-quality leads." },
+                { icon: BarChart3, title: "Data & Analytics", desc: "Leverage data-driven insights to enhance performance, predict trends, and maximize opportunities." },
               ].map((service, i) => (
                 <GlassCard key={i} className="p-6 group hover:border-[var(--primary)]/50 transition-colors">
                   <div className="w-12 h-12 rounded-lg bg-[var(--primary)]/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
