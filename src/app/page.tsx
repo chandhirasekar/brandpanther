@@ -44,6 +44,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--primary)]/20 bg-[var(--primary)]/10 text-xs font-semibold text-[var(--primary)] uppercase tracking-wider mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-[var(--primary)] animate-pulse" />
               Premium Marketing Studio
+              <link rel="canonical" href="https://brandpanther-beta.vercel.app/" />
             </div>
 
             {/* Main Heading */}
