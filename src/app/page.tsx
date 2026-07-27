@@ -133,9 +133,9 @@ export default function Home() {
                 <div className="grid sm:grid-cols-2 gap-4 pt-2 max-w-xl">
                   {[
                     { icon: Search, title: "Market Research", desc: "Make confident decisions with comprehensive market analysis and actionable insights" },
-                    { icon: Palette, title: "Branding", desc: "Identities people remember" },
-                    { icon: PenTool, title: "Content Creation", desc: "Stories that convert" },
-                    { icon: Target, title: "Lead Generation", desc: "Pipelines that pay" }
+                    { icon: Palette, title: "Branding", desc: "Create a unique brand that reflects your vision and stands out in a competitive market." },
+                    { icon: PenTool, title: "Content Creation", desc: "Deliver compelling content that informs, inspires, and drives meaningful customer engagement." },
+                    { icon: Target, title: "Lead Generation", desc: "Fuel your sales pipeline with targeted campaigns designed to attract high-value prospects." }
                   ].map((item, i) => (
                     <div key={i} className="p-5 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] transition-colors group cursor-default">
                       <div className="w-10 h-10 rounded-xl bg-[hsl(262,83%,56%)]/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
