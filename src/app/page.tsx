@@ -123,7 +123,7 @@ export default function Home() {
                 <div>
                   <h4 className="text-[hsl(262,83%,56%)] text-xs font-bold tracking-[0.2em] uppercase mb-3">About Us</h4>
                   <h2 className="text-3xl md:text-4xl lg:text-5xl leading-[1.1] font-extrabold mb-5 text-white tracking-tight">
-                    From conceptualization to implementation, Brand Panther partners with ambitious businesses
+                   Brand Panther collaborates with ambitious businesses, turning ideas into impactful realities.
                   </h2>
                   <p className="text-white/60 text-base md:text-lg leading-relaxed max-w-xl">
                     We're not just another marketing agency. We're your growth partner, combining strategy, creativity, and technology to deliver results that matter.
