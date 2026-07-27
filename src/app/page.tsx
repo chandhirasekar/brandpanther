@@ -242,10 +242,10 @@ export default function Home() {
             
             <div className="max-w-4xl mx-auto space-y-12 relative before:absolute before:inset-0 before:ml-5 md:before:mx-auto md:before:translate-x-0 before:h-full before:w-[1px] before:bg-gradient-to-b before:from-transparent before:via-[hsl(262,83%,56%,0.5)] before:to-transparent">
               {[
-                { step: "01", title: "Discovery & Audit", desc: "We deep dive into your brand, current metrics, and market positioning." },
-                { step: "02", title: "Strategy Formulation", desc: "We build a custom roadmap tailored to your specific growth goals." },
-                { step: "03", title: "Execution & Launch", desc: "Our specialists deploy campaigns, creatives, and technical updates." },
-                { step: "04", title: "Scale & Optimize", desc: "Continuous testing, iterating, and scaling what works best." }
+                { step: "01", title: "Discovery & Audit", desc: "Analyze your business, identify opportunities, and create a clear roadmap for strategic growth." },
+                { step: "02", title: "Strategy Formulation", desc: "Develop strategic roadmaps that align your vision with actionable plans for sustainable business growth." },
+                { step: "03", title: "Execution & Launch", desc: "Transform strategies into successful outcomes with seamless execution and impactful launches." },
+                { step: "04", title: "Scale & Optimize", desc: "Optimize performance and scale your business with strategic improvements that drive sustainable growth." }
               ].map((phase, i) => (
                 <div key={i} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
                   <div className="flex items-center justify-center w-10 h-10 rounded-full bg-[#0a0510] border border-[hsl(262,83%,56%)] text-[hsl(262,83%,56%)] text-sm font-medium absolute left-0 md:left-1/2 md:-translate-x-1/2 shadow-[0_0_20px_rgba(139,92,246,0.3)] z-10 transition-all duration-300 group-hover:scale-110 group-hover:bg-[hsl(262,83%,56%)] group-hover:text-white">
